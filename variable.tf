@@ -19,3 +19,7 @@ variable "bucketname" {
   type        = string
   default     = "terraform-v-bucket"  #change Bucket name also
 }
+variable "my_ip_address" {
+  description = "Your public IP address"
+  default     = "106.206.70.112/32"  # Replace with your public IP address
+}
